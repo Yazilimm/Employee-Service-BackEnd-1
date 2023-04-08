@@ -1,0 +1,20 @@
+
+##Size
+backend.constraints.firstName.Size.message=First name size must be  between {min} and {max}
+backend.constraints.lastName.Size.message=Last name size must be  between {min} and {max}
+backend.constraints.identityNumber.Length.message= Identity number length must be 11 character
+
+## email
+backend.constraints.email.Pattern.message = Invalid email
+
+##Not Null
+backend.constraints.firstName.NotNull.message=First name cannot be null
+backend.constraints.lastName.NotNull.message=Last name cannot be null
+backend.constraints.identityNumber.NotNull.message=Identity number cannot be null
+backend.constraints.email.NotNull.message=Email cannot be null
+
+
+##NotBlank
+backend.constraints.identityNumber.NotBlank.message=Identity number cannot be blank
+backend.constraints.email.NotBlank.message=Email cannot be blank
+
